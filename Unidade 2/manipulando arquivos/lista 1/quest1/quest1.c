@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(void){
     double nota1, nota2, nota3;
@@ -10,11 +9,11 @@ int main(void){
     FILE *arq2;
 
     if((arq2 = fopen("saida_q1.txt", "w")) == NULL){
-        printf("Erro ao abrir arquivo\n");
+        printf("Erro ao abrir arquivo.\n");
     }
 
     if((arq1 = fopen("entrada_q1.txt", "r")) == NULL){
-        printf("Erro ao abrir arquivo");
+        printf("Erro ao abrir arquivo.\n");
     }
     else{
         while((fgets(tam, 100, arq1)) != NULL){

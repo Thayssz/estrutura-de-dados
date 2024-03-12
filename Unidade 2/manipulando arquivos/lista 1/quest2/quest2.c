@@ -38,6 +38,6 @@ int main(void){
             }
         }
         media = soma/10;
-        fprintf(arq2, "menor elemento: %d\nmaior elemento: %d\nmedia dos elementos: %.6lf", menor, maior, media);
+        fprintf(arq2, "Menor elemento: %d\nMaior elemento: %d\nMedia dos elementos: %.6lf", menor, maior, media);
     }
 }
